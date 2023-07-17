@@ -13,12 +13,14 @@ import {FormsModule} from "@angular/forms";
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import {AppRoutingModule} from "./app-routing.module";
+import { ProjekteComponent } from './pages/projekte/projekte.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    ProjekteComponent
   ],
   imports: [
     BrowserModule,

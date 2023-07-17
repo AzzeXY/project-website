@@ -9,12 +9,14 @@
   <mat-sidenav [(opened)]="opened" mode="over">
     <mat-list>
       <mat-list-item routerLink="/home">Home</mat-list-item>
-      <mat-list-item>Projekte</mat-list-item>
+      <mat-list-item routerLink="/projects">Projekte</mat-list-item>
       <mat-list-item>About Me</mat-list-item>
     </mat-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <router-outlet></router-outlet>
+    <div style="margin: 50px">
+      <router-outlet></router-outlet>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
 
