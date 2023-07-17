@@ -1,0 +1,24 @@
+.some-page-wrapper {
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.image {
+  height: 100vh;
+}
+
+.green-column {
+  background-color: green;
+  height: 100px;
+}
