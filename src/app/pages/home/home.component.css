@@ -1,3 +1,9 @@
+h1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  font-weight: bold
+}
+
 .some-page-wrapper {
 }
 
@@ -16,9 +22,19 @@
 
 .image {
   height: 100vh;
+  float: left;
 }
 
-.green-column {
-  background-color: green;
+.personal-information {
+  padding-top: 15vh;
   height: 100px;
 }
+.information-text{
+  margin: 5px;
+  padding-top: 10px;
+  font-family: monospace;
+  width: 50vh;
+}
+
+
+
